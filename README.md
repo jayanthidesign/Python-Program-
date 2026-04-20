@@ -6,12 +6,7 @@ This analysis evaluates customer support tickets to identify recurring issues, c
 
 #  Tools & Technologies:
 
-Language: Python 
-
-# Attributes Description:
-The dataset contains five attributes. Ticket No is a unique number assigned to each ticket. Customer Name records the name of the customer who submitted the ticket. 
-Issue Description contains the original text of the customer’s issue, while Cleaned Description is a standardized version where punctuation is removed, text is lowercase, extra spaces are trimmed, and shorthand is replaced. 
-Priority indicates the urgency level of the ticket, which can be High, Medium, or Low.
+Language: Python.
 
 # Key Findings:
 Most tickets are High or Medium priority, indicating critical areas for support.
@@ -24,7 +19,8 @@ Longest issue descriptions provide detailed insights into customer concerns.
 
 Unique words analysis aids in understanding common terms and recurring problems across tickets.
 
-# Conclusion:
+# Recommendations:
+
 The analysis of customer support tickets highlights recurring issues, customer sentiment, and service priorities, with high-priority tickets requiring immediate attention. In the future, automating keyword detection and building a knowledge base from recurring issues can improve resolution times and overall customer satisfaction.
 
 
